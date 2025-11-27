@@ -76,7 +76,7 @@ const LoginPage = () => {
               {
                 isLoading ? (<div className='flex items-center justify-center gap-2'>
                   <Loader2 className='w-5 h-5' />
-                  Sending OTP to ypur mail...
+                  Sending OTP to your mail...
                 </div>) :
                   (<div className='flex items-center justify-center gap-2'>
                     <span>Send Verification code</span>

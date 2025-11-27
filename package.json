@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --webpack",
+    "dev": "next dev --webpack -p 3001",
     "build": "next build --webpack",
-    "start": "next start",
+    "start": "set PORT=3001 && next start",
     "lint": "eslint",
     "clean": "rm -rf .next/cache node_modules/.cache"
   },

@@ -4,8 +4,8 @@ import Cookies from 'js-cookie';
 import axios from 'axios';
 import toast, { Toaster } from 'react-hot-toast';
 
-export const user_service = 'http://3.27.83.126:5000';
-export const chat_service = 'http://3.27.83.126:3000';
+export const user_service = 'http://3.107.10.249:5000';
+export const chat_service = 'http://3.107.10.249:3000';
 
 export interface user {
     _id: string;
