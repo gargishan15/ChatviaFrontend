@@ -31,7 +31,7 @@ const MessageInput = ({ selectedUser, message, setMessage, handleMessageSend }: 
                     <button type='button' className='absolute -top-2 -right-2 bg-black rounded-full p-1' onClick={() => setImageFile(null)}><X className='w-4 h-4 text-white' /></button>
                 </div>
             }
-
+g
             <div className='flex items-center gap-2'>
                 <label className='cursor-pointer bg-gray-700 hover:bg-gray-600 rounded-lg px-3 py-2 transition-colors'>
                     <Paperclip size={18} className='text-gray-300'/>
